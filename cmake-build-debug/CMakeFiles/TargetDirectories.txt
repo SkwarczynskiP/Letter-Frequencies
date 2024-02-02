@@ -1,0 +1,3 @@
+C:/MY STUFF/OU Winter 2024/CSI 2320/Project2/Letter-Frequencies/cmake-build-debug/CMakeFiles/Letter_Frequencies.dir
+C:/MY STUFF/OU Winter 2024/CSI 2320/Project2/Letter-Frequencies/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/MY STUFF/OU Winter 2024/CSI 2320/Project2/Letter-Frequencies/cmake-build-debug/CMakeFiles/rebuild_cache.dir
