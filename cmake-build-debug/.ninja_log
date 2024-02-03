@@ -1,0 +1,17 @@
+# ninja log v5
+1	515	7286141021434348	CMakeFiles/Letter_Frequencies.dir/main.cpp.obj	a4a91e0be968e6cf
+517	638	7286141022639420	Letter_Frequencies.exe	2d6b8181e435ce16
+3	446	7286141272237731	CMakeFiles/Letter_Frequencies.dir/main.cpp.obj	a4a91e0be968e6cf
+446	526	7286141272963854	Letter_Frequencies.exe	2d6b8181e435ce16
+2	410	7286142104036805	CMakeFiles/Letter_Frequencies.dir/main.cpp.obj	a4a91e0be968e6cf
+410	478	7286142104693081	Letter_Frequencies.exe	2d6b8181e435ce16
+2	420	7286144691216490	CMakeFiles/Letter_Frequencies.dir/main.cpp.obj	a4a91e0be968e6cf
+420	485	7286144691851698	Letter_Frequencies.exe	2d6b8181e435ce16
+5	967	7286983453455559	CMakeFiles/Letter_Frequencies.dir/main.cpp.obj	a4a91e0be968e6cf
+968	1284	7286983456610781	Letter_Frequencies.exe	2d6b8181e435ce16
+3	627	7286984515781632	CMakeFiles/Letter_Frequencies.dir/main.cpp.obj	a4a91e0be968e6cf
+628	766	7286984517134626	Letter_Frequencies.exe	2d6b8181e435ce16
+3	651	7286988718692158	CMakeFiles/Letter_Frequencies.dir/main.cpp.obj	a4a91e0be968e6cf
+652	746	7286988719638797	Letter_Frequencies.exe	2d6b8181e435ce16
+3	592	7286991808127074	CMakeFiles/Letter_Frequencies.dir/main.cpp.obj	a4a91e0be968e6cf
+592	692	7286991809078470	Letter_Frequencies.exe	2d6b8181e435ce16
