@@ -1,2 +1,8 @@
 # Letter-Frequencies
- CSI 2320 - C++ For Programmers - Project 2
+
+### Comple Directions:
+Run Command
+- g++ LetterFrequencies.cpp -o LetterFrequencies
+### Run Directions:
+Run Command
+- ./LetterFrequencies
