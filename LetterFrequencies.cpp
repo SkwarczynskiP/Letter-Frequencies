@@ -6,6 +6,7 @@ using namespace std;
 void getFile();
 void readFile();
 void sortFile();
+void printStatements();
 
 ifstream myFile;
 unsigned int countAlphabet[26];
@@ -14,30 +15,16 @@ char alphabet[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
                    'V', 'W', 'X', 'Y', 'Z'};
 
 int main() {
-    int x;
-
     getFile();
     readFile();
 
-    cout << "Alphabetized Frequency Counts: (Letters with count 0 are not printed)" << endl;
-    cout << "Letter:" << "\tNumber:" << endl;
-
-    for(x = 0; x < 26; x++) {
-        if(countAlphabet[x] != 0) {
-            cout << alphabet[x] << "\t" << countAlphabet[x] << endl;
-        }
-    }
+    cout << "Alphabetized Frequency Counts: (Letters with count = 0 are not printed)" << endl;
+    printStatements();
 
     sortFile();
 
-    cout << "Frequency Counts in Ascending Order: (Letters with count 0 are not printed)" << endl;
-    cout << "Letter:" << "\tNumber:" << endl;
-
-    for(x = 0; x < 26; x++) {
-        if(countAlphabet[x] != 0) {
-            cout << alphabet[x] << "\t" << countAlphabet[x] << endl;
-        }
-    }
+    cout << "Frequency Counts in Ascending Order: (Letters with count = 0 are not printed)" << endl;
+    printStatements();
 
     return 0;
 }
@@ -81,6 +68,16 @@ void sortFile() {
                 swap(countAlphabet[j], countAlphabet[j+1]);
                 swap(alphabet[j], alphabet[j+1]);
             }
+        }
+    }
+}
+
+void printStatements() {
+    cout << "Letter:" << "\tCount:" << endl;
+
+    for(int x = 0; x < 26; x++) {
+        if(countAlphabet[x] != 0) {
+            cout << alphabet[x] << "\t" << countAlphabet[x] << endl;
         }
     }
 }
