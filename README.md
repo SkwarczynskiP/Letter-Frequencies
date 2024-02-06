@@ -1,6 +1,6 @@
 # Letter-Frequencies
 
-### Comple Directions:
+### Compile Directions:
 Run Command
 - g++ LetterFrequencies.cpp -o LetterFrequencies
 ### Run Directions:
